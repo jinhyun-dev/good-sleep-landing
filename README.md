@@ -2,7 +2,7 @@
 A modern, responsive landing page for a fictional sleep healthcare application built with Next.js and Tailwind CSS, designed with a nature-inspired wellness theme for global users seeking better sleep quality.
 
 🔗 Live Demo
-## 🌐 https://.vercel.app
+## 🌐 https://good-sleep-landing.vercel.app
 
 ## ✨ Features
 - 🌿 Nature-inspired wellness design with glassmorphism effects
@@ -40,7 +40,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 to view the development version, or visit the live demo to see the deployed version.
 
 ## 📦 Development Commands
 ```bash
@@ -85,7 +85,6 @@ good-sleep-app/
 │   └── Footer/
 ├── public/
 │   ├── favicon.svg
-│   └── favicon.ico
 └── package.json
 ```
 
@@ -102,4 +101,4 @@ GitHub: @jinhyun-dev
 
 ---
 
-**Note**: This is a fictional product created for portfolio demonstration purposes. Good Sleep is not a real application or service.
+**Note**: This is a fictional product created for portfolio demonstration purposes. "Good Sleep" is not a real application or service.
