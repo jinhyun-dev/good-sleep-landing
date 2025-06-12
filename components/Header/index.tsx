@@ -1,35 +1,41 @@
 "use client";
 
 import { useState } from "react";
-import { Moon, Download, Menu, X } from "lucide-react";
+import { Moon, Download, Menu, X, Leaf } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 w-full bg-black/20 backdrop-blur-xl z-50 border-b border-white/10">
+    <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-xl z-50 border-b border-slate-200/50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center shadow-lg">
-              <Moon className="w-6 h-6 text-white" />
+            <div className="w-12 h-12 bg-gradient-to-br from-indigo-500 via-purple-500 to-teal-500 rounded-2xl flex items-center justify-center shadow-lg">
+              <Moon className="w-7 h-7 text-white" />
             </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent">
-              Good Sleep
-            </span>
+            <div>
+              <span className="text-2xl font-bold bg-gradient-to-r from-slate-700 to-indigo-700 bg-clip-text text-transparent">
+                Good Sleep
+              </span>
+              <div className="text-xs text-slate-500 flex items-center space-x-1">
+                <Leaf className="w-3 h-3" />
+                <span>Natural wellness</span>
+              </div>
+            </div>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-white/80 hover:text-white transition-all duration-200 hover:scale-105">
+            <a href="#features" className="nav-link">
               Features
             </a>
-            <a href="#testimonials" className="text-white/80 hover:text-white transition-all duration-200 hover:scale-105">
-              Reviews
+            <a href="#testimonials" className="nav-link">
+              Stories
             </a>
-            <a href="#pricing" className="text-white/80 hover:text-white transition-all duration-200 hover:scale-105">
+            <a href="#pricing" className="nav-link">
               Pricing
             </a>
-            <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-2.5 rounded-full hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button className="button-primary">
               <div className="flex items-center space-x-2">
                 <Download className="w-4 h-4" />
                 <span>Download</span>
@@ -38,7 +44,7 @@ const Header = () => {
           </div>
 
           <button
-            className="md:hidden text-white p-2 rounded-lg hover:bg-white/10 transition-colors"
+            className="md:hidden text-slate-600 p-2 rounded-lg hover:bg-slate-100 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -48,12 +54,12 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-black/40 backdrop-blur-xl border-t border-white/10">
+        <div className="md:hidden bg-white/95 backdrop-blur-xl border-t border-slate-200/50">
           <div className="px-4 py-6 space-y-4">
-            <a href="#features" className="block text-white/80 hover:text-white transition-colors py-2">Features</a>
-            <a href="#testimonials" className="block text-white/80 hover:text-white transition-colors py-2">Reviews</a>
-            <a href="#pricing" className="block text-white/80 hover:text-white transition-colors py-2">Pricing</a>
-            <button className="w-full bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full flex items-center justify-center space-x-2">
+            <a href="#features" className="block text-slate-600 hover:text-indigo-600 transition-colors py-2 font-medium">Features</a>
+            <a href="#testimonials" className="block text-slate-600 hover:text-indigo-600 transition-colors py-2 font-medium">Stories</a>
+            <a href="#pricing" className="block text-slate-600 hover:text-indigo-600 transition-colors py-2 font-medium">Pricing</a>
+            <button className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-2xl flex items-center justify-center space-x-2 font-medium">
               <Download className="w-4 h-4" />
               <span>Download App</span>
             </button>
