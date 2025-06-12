@@ -1,46 +1,105 @@
-# Startup - Free Next.js Startup Website Template
+# Good Sleep - Sleep Healthcare App Landing Page 🌙
+A modern, responsive landing page for a fictional sleep healthcare application built with Next.js and Tailwind CSS, designed with a nature-inspired wellness theme for global users seeking better sleep quality.
 
-Startup free, open-source, and premium-quality startup website template for Next.js comes with everything you need to launch a startup, business, or SaaS website, including all essential sections, components, and pages.
+🔗 Live Demo
+## 🌐 https://.vercel.app
 
-If you're looking for a high-quality and visually appealing, feature-rich Next.js Template for your next startup, SaaS, or business website, this is the perfect choice and starting point for you!
+## ✨ Features
+- 🌿 Nature-inspired wellness design with glassmorphism effects
+- 📊 Interactive sleep score visualization with animated progress
+- 🧘‍♀️ AI-powered sleep tracking and meditation library showcase
+- 🎨 Soft color palette with calming gradients and transitions
+- 📱 Responsive design optimized for all devices
+- ⭐ Auto-rotating testimonials from global users
+- 🎯 Modern pricing section with feature comparison
+- 🌙 Custom favicon matching brand identity
+- ♿ Accessibility features with reduced motion support
+- 🌍 Global audience targeting (digital nomads, remote workers)
 
-### ✨ Key Features
-- Crafted for Startup and SaaS Business
-- Next.js 13 and Tailwind CSS
-- All Essential Business Sections and Pages
-- High-quality and Clean Design
-- Dark and Light Version
-- TypeScript Support
-and Much More ...
+## 🚀 Tech Stack
+- Next.js 14 (App Router)
+- React with TypeScript
+- Tailwind CSS
+- Lucide React Icons
+- Google Fonts (Inter + Crimson Text)
+- Git & GitHub
+- Vercel
 
-### [🔥 Get Startup Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+## 📸 Screenshots
+![Hero Section](image.png)
+![Features Overview](image-1.png)
+![Sleep Analytics](image-2.png)
+![User Testimonials](image-3.png)
+![Pricing Plans](image-4.png)
 
-[![Startup Pro](https://cdn.nextjstemplates.com/Startup-Pro---Next.js-Starter-Template-for-SaaS-Startups-282e26f7-f543-4ae4-a777-ac306c08cce8.png)](https://nextjstemplates.com/templates/saas-starter-startup)
+## 🛠️ Getting Started
+```bash
+git clone https://github.com/jinhyun-dev/good-sleep-landing.git
+cd good-sleep-landing/good-sleep-app
+npm install
+npm run dev
+```
 
-Startup Pro - Expertly crafted for fully-functional, high-performing SaaS startup websites. Comes with with Authentication, Database, Blog, and all the essential integrations necessary for SaaS business sites.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## 📦 Development Commands
+```bash
+# Development server
+npm run dev
 
-### [🚀 View Free Demo](https://startup.nextjstemplates.com/)
+# Build for production
+npm run build
 
-### [🚀 View Pro Demo](https://startup-pro.nextjstemplates.com/)
+# Start production server
+npm start
 
-### [📦 Download](https://nextjstemplates.com/templates/startup)
+# Type checking
+npm run type-check
 
-### [🔥 Get Pro](https://nextjstemplates.com/templates/saas-starter-startup)
+# Linting
+npm run lint
+```
 
-### [🔌 Documentation](https://nextjstemplates.com/docs)
+## 🎨 Design System
+- **Color Palette**: Nature-inspired emerald, blue, and purple gradients
+- **Typography**: Inter (primary) + Crimson Text (serif accents)
+- **Effects**: Glassmorphism with backdrop blur and transparency
+- **Animations**: Floating elements and gentle micro-interactions
+- **Theme**: Wellness-focused with calming, serene aesthetic
 
-### ⚡ Deploy Now
+## 📁 Project Structure
+```
+good-sleep-app/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Header/
+│   ├── Hero/
+│   ├── Stats/
+│   ├── Features/
+│   ├── Testimonials/
+│   ├── Pricing/
+│   ├── CTA/
+│   └── Footer/
+├── public/
+│   ├── favicon.svg
+│   └── favicon.ico
+└── package.json
+```
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FNextJSTemplates%2Fstartup-nextjs)
+## 🎯 Target Audience
+- **Primary**: Digital nomads and remote workers
+- **Secondary**: Health-conscious professionals (20-40 years old)
+- **Tertiary**: Working parents seeking better sleep quality
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/NextJSTemplates/startup-nextjs)
+## 📦 Deployment
+Deployed on Vercel with automatic deployments from main branch.
 
+## 🧑‍💻 Author
+GitHub: @jinhyun-dev
 
-### 📄 License
-Startup is 100% free and open-source, feel free to use with your personal and commercial projects.
+---
 
-### 💜 Support
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-
-### ✨ Explore and Download - Free [Next.js Templates](https://nextjstemplates.com)
+**Note**: This is a fictional product created for portfolio demonstration purposes. Good Sleep is not a real application or service.
