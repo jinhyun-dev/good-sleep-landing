@@ -3,7 +3,7 @@ A modern, responsive landing page for a fictional sleep healthcare application b
 
 🔗 Live Demo
 ## 🌐 https://good-sleep-landing.vercel.app
-
+   
 ## ✨ Features
 - 🌿 Nature-inspired wellness design with glassmorphism effects
 - 📊 Interactive sleep score visualization with animated progress
@@ -30,7 +30,7 @@ A modern, responsive landing page for a fictional sleep healthcare application b
 ![Features Overview](image-1.png)
 ![Sleep Analytics](image-2.png)
 ![User Testimonials](image-3.png)
-![Pricing Plans](image-4.png)
+![Pricing Plan](image-4.png)
 
 ## 🛠️ Getting Started
 ```bash
