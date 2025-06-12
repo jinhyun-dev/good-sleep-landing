@@ -20,6 +20,12 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+  },
   openGraph: {
     title: "Good Sleep - Better Sleep, Better Life",
     description: "Transform your sleep with AI-powered tracking, personalized meditation content, and daily insights.",
@@ -70,6 +76,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <meta name="theme-color" content="#8B5CF6" />
+      </head>
       <body className={inter.className}>
         {children}
       </body>
