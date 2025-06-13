@@ -30,7 +30,7 @@ A modern, responsive landing page for a fictional sleep healthcare application b
 ![Features Overview](image-1.png)
 ![Sleep Analytics](image-2.png)
 ![User Testimonials](image-3.png)
-![Pricing Plan](image-4.png)
+![Pricing Plans](image-4.png)
 
 ## 🛠️ Getting Started
 ```bash
