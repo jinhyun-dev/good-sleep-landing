@@ -35,12 +35,15 @@ const Header = () => {
             <a href="#pricing" className="nav-link">
               Pricing
             </a>
-            <button className="button-primary">
-              <div className="flex items-center space-x-2">
-                <Download className="w-4 h-4" />
-                <span>Download</span>
-              </div>
-            </button>
+            <a 
+              href="https://apps.apple.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="button-primary inline-flex items-center space-x-2"
+            >
+              <Download className="w-4 h-4" />
+              <span>Download</span>
+            </a>
           </div>
 
           <button
@@ -59,10 +62,15 @@ const Header = () => {
             <a href="#features" className="block text-slate-600 hover:text-indigo-600 transition-colors py-2 font-medium">Features</a>
             <a href="#testimonials" className="block text-slate-600 hover:text-indigo-600 transition-colors py-2 font-medium">Stories</a>
             <a href="#pricing" className="block text-slate-600 hover:text-indigo-600 transition-colors py-2 font-medium">Pricing</a>
-            <button className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-2xl flex items-center justify-center space-x-2 font-medium">
+            <a 
+              href="https://apps.apple.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-2xl flex items-center justify-center space-x-2 font-medium hover:from-indigo-600 hover:to-purple-700 transition-all duration-300"
+            >
               <Download className="w-4 h-4" />
               <span>Download App</span>
-            </button>
+            </a>
           </div>
         </div>
       )}

@@ -23,20 +23,30 @@ const CTA = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
-          <button className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-4 rounded-2xl text-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-3">
+          <a 
+            href="https://apps.apple.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-4 rounded-2xl text-lg font-semibold hover:from-indigo-600 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-3"
+          >
             <Apple className="w-6 h-6" />
             <div className="text-left">
               <div className="text-xs opacity-90">Download on the</div>
               <div className="text-sm font-bold">App Store</div>
             </div>
-          </button>
-          <button className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-10 py-4 rounded-2xl text-lg font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-3">
+          </a>
+          <a 
+            href="https://play.google.com/store" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-gradient-to-r from-emerald-500 to-teal-600 text-white px-10 py-4 rounded-2xl text-lg font-semibold hover:from-emerald-600 hover:to-teal-700 transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center space-x-3"
+          >
             <Smartphone className="w-6 h-6" />
             <div className="text-left">
               <div className="text-xs opacity-90">Get it on</div>
               <div className="text-sm font-bold">Google Play</div>
             </div>
-          </button>
+          </a>
         </div>
 
         <div className="flex items-center justify-center space-x-8 text-slate-500">
