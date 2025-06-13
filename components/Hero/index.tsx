@@ -77,15 +77,25 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
-            <button className="button-primary">
+            <a 
+              href="https://apps.apple.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="button-primary inline-flex items-center space-x-3"
+            >
               <Smartphone className="w-6 h-6" />
               <span>Download Free App</span>
               <ArrowRight className="w-5 h-5" />
-            </button>
-            <button className="button-secondary">
+            </a>
+            <a 
+              href="https://www.youtube.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="button-secondary inline-flex items-center space-x-3"
+            >
               <Play className="w-5 h-5" />
               <span>Watch Demo</span>
-            </button>
+            </a>
           </div>
 
           {/* Enhanced Sleep Score Demo */}
