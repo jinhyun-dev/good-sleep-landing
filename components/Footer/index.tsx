@@ -21,11 +21,6 @@ const Footer = () => {
             <p className="text-slate-600 leading-relaxed mb-4">
               Revolutionizing sleep health through AI-powered insights and personalized wellness solutions.
             </p>
-            <div className="flex items-center space-x-2 text-sm text-slate-500">
-              <span>Made with</span>
-              <Heart className="w-4 h-4 text-red-400 fill-current" />
-              <span>for better sleep</span>
-            </div>
           </div>
           
           <div>
