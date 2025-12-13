@@ -55,7 +55,7 @@ const Hero = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 glass-effect px-6 py-3 rounded-full mb-8 shadow-sm">
             <Star className="w-5 h-5 text-amber-500" />
-            <span className="text-sm text-slate-700 font-medium">Rated #1 Sleep App of 2024</span>
+            <span className="text-sm text-slate-700 font-medium">Rated #1 Sleep App of 2025</span>
             <div className="flex space-x-1">
               <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
               <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>

@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="border-t border-slate-200 pt-8 text-center">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-slate-600 mb-4 md:mb-0">
-              &copy; 2024 Good Sleep. All rights reserved. Designed for better sleep, built for better life.
+              &copy; 2025 Good Sleep. All rights reserved. Designed for better sleep, built for better life.
             </p>
             <div className="flex items-center space-x-6">
               <div className="flex items-center space-x-2">
